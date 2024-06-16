@@ -1,8 +1,15 @@
-<!-- import the header -->
 <script>
-  import Header from '$lib/components/Header.svelte';
+  import HowItWorks from "$lib/components/HowItWorks.svelte";  
+  import Header from "$lib/components/Header.svelte";
+  import Introduction from "$lib/components/Introduction.svelte";
+  import WhatMakesAToken from "$lib/components/WhatMakesAToken.svelte";
+  import HowToGive from "$lib/components/HowToGive.svelte";
+  import WebApp from "$lib/components/WebApp.svelte";
 </script>
 
 <Header />
-<h1>Welcome to SvelteKit</h1>
-<p class="font-thin">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<Introduction />
+<HowItWorks />
+<WhatMakesAToken />
+<HowToGive />
+<WebApp />

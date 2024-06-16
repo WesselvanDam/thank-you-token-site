@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Hurme Geometric Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/HurmeGeometricSans-Regular.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Hurme Geometric Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/HurmeGeometricSans-Bold.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Hurme Geometric Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url(/fonts/HurmeGeometricSans-RegularItalic.otf) format('opentype');
+  }
+
+  /* Set headings to this font */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Hurme Geometric Sans', sans-serif;
+  }
+
+  @font-face {
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/AtkinsonHyperlegible-Regular.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/AtkinsonHyperlegible-Bold.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Atkinson Hyperlegible';
+    font-style: italic;
+    font-weight: 400;
+    src: url(/fonts/AtkinsonHyperlegible-Italic.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Atkinson Hyperlegible';
+    font-style: italic;
+    font-weight: 700;
+    src: url(/fonts/AtkinsonHyperlegible-BoldItalic.ttf) format('truetype');
+  }
+
+  /* Set body text to this font */
+  body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+  }
+}
