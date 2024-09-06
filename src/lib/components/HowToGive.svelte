@@ -19,6 +19,6 @@
 <img
   src="flyter.jpg"
   alt="Click for our flyer!"
-  class="bg-slate-100 m-4 sm:w-1/3"
+  class="bg-slate-100 m-4 sm:w-1/3 image"
 />
 </section>

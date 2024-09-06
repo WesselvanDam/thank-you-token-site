@@ -2,9 +2,9 @@
   import Heading from "$lib/utils/Heading.svelte";
 </script>
 
-<section class="flex flex-col sm:flex-row bg-tyt_red py-8 text-white w-screen justify-center">
-  <img src="stone_token.jpg" alt="An example of a token" class="bg-slate-100 m-4 sm:w-1/3">
-  <div class="sm:w-1/2 text-start p-4">
+<section class="flex flex-col sm:flex-row bg-tyt_red py-8  w-screen justify-center">
+  <img src="stone_token.jpg" alt="An example of a token" class="bg-slate-100 m-4 sm:w-1/3 image">
+  <div class="sm:w-1/2 text-start p-4 text-white">
     <Heading text="What makes a token?" />
     <p>
       A Thank You Token <strong>could be anything</strong>, but it typically has
