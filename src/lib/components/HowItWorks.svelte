@@ -43,15 +43,15 @@
   <Heading text="How it works" />
   <div class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 px-4">
     {#each howItWorksData as data}
-      <div class="flex flex-col items-center border-2 border-{data.color} rounded-2xl">
+      <div class="flex flex-col items-center border-2 border-{data.color} rounded-2xl transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
         <img
           src={data.image}
           alt={data.title}
           class="bg-slate-200 w-full rounded-t-2xl min-h-48"
         />
-        <h2 class="text-lg sm:text-xl md:text-2xl px-4">{data.title}</h2>
-        <p class="text-center px-4">{data.description}</p>
+        <h2 class="text-lg sm:text-xl md:text-2xl px-4 font-semibold">{data.title}</h2>
+        <p class="text-center px-4 text-sm sm:text-base md:text-lg">{data.description}</p>
       </div>
     {/each}
-  </div></section
->
+  </div>
+</section>
