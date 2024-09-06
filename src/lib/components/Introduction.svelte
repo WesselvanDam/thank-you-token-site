@@ -7,7 +7,7 @@
   <div class= "text-justify max-w-screen-md">
     <p>
       A philosophical conversation over a fancy dinner, a comforting pep-talk
-      during a walk in the park, or a long overdue reunion with high school friends:
+      during a walk in the park, or a long overdue reunion with old friends:
       life is full of <strong>memorable moments</strong> with people that matter to you. Such
       interactions can easily be taken for granted, while it may be difficult or
       daunting to <strong>show your gratitude</strong> with words or gifts.
