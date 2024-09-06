@@ -41,17 +41,17 @@
 
 <section class="py-8">
   <Heading text="How it works" />
-  <div class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-4 px-4">
+  <div class="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
     {#each howItWorksData as data}
-      <div class="flex flex-col items-center border-2 border-{data.color} rounded-2xl">
+      <div class="flex flex-col items-center border-2 border-{data.color} rounded-2xl transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
         <img
           src={data.image}
           alt={data.title}
           class="bg-slate-200 w-full rounded-t-2xl min-h-48"
         />
-        <h2 class="text-lg sm:text-xl md:text-2xl px-4">{data.title}</h2>
-        <p class="text-center px-4">{data.description}</p>
+        <h2 class="text-md sm:text-lg md:text-xl px-4 py-4 font">{data.title}</h2>
+        <p class="text-center px-4 text-sm sm:text-md md:text-lg">{data.description}</p>
       </div>
     {/each}
-  </div></section
->
+  </div>
+</section>

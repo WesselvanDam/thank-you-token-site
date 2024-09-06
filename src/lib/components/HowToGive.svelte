@@ -10,10 +10,8 @@
   <p>
     There's no need to wrap the token in gift wrapping: just give it along
     with some kind words and our Thank You Token <strong>flyer</strong>, which
-    helps
-    <strong>explain the concept</strong>
-    to those unfamiliar with it and contains a link to the
-    <strong>web app</strong>.
+    helps explain the concept to those unfamiliar with it and contains a link to the
+    <a href="https://app.thank-you-token.nl" class="underline text-tyt_blue">web app</a>.
   </p>
 </div>
 <img
