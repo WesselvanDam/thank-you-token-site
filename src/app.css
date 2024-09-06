@@ -63,24 +63,3 @@
   }
 }
 
-/* Custom styles for hover effects and animations */
-@layer components {
-  .card-hover-effect {
-    @apply transform transition-transform duration-300 hover:scale-105 hover:shadow-lg;
-  }
-
-  .card-animation {
-    @apply transition-all duration-500 ease-in-out;
-  }
-}
-
-/* Custom styles for updated typography */
-@layer typography {
-  .title-typography {
-    @apply text-lg sm:text-xl md:text-2xl font-semibold;
-  }
-
-  .description-typography {
-    @apply text-sm sm:text-base md:text-lg text-center;
-  }
-}
