@@ -25,15 +25,15 @@
       "tyt_blue"
     ),
     new InstructionData(
-      "Record the token in our app",
-      "Write down the story behind this token in our web app",
-      "img/step3.png",
-      "tyt_green"
-    ),
-    new InstructionData(
       "Keep tokens at home & regift",
       "Put received tokens on display, ready to be given away again at a later event!",
       "img/step4.png",
+      "tyt_green"
+    ),
+    new InstructionData(
+      "Record the token in our app",
+      "Write down the story behind this token in our web app",
+      "img/step3.png",
       "tyt_yellow"
     ),
   ];
