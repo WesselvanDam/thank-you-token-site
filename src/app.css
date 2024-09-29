@@ -64,6 +64,10 @@
 
   /* Create a custom class for images including the following tailwind tags: rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl */
   .image {
-    @apply rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl;
+    @apply rounded-2xl shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-xl; object-fit: cover;
+  }
+
+  .button {
+    @apply inline-block mt-4 px-6 py-2 bg-tyt_blue text-white font-semibold rounded-2xl hover:bg-tyt_yellow hover:scale-105 transition duration-300 transform shadow-lg hover:shadow-xl;
   }
 }

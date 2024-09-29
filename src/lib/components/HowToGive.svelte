@@ -1,22 +1,40 @@
 <script>
-  import Heading from "$lib/utils/Heading.svelte";
+  import Section from "$lib/utils/Section.svelte";
 </script>
 
-<section
-  class="flex flex-col sm:flex-row py-8 w-screen justify-center"
+<Section
+  imageSrc="img/flyer-mock.jpg"
+  imageAlt="Click for our flyer!"
+  headingText="How to give one"
+  imageRight
 >
-<div class="sm:w-1/2 text-start p-4">
-  <Heading text="How to give one" />
   <p>
-    There's no need to wrap the token in gift wrapping: just give it along
-    with some kind words and our Thank You Token <strong>flyer</strong>, which
-    helps explain the concept to those unfamiliar with it and contains a link to the
-    <a href="https://app.thank-you-token.nl" class="underline text-tyt_blue">web app</a>.
+    There's no need to wrap the token in gift wrapping: just give it along with
+    some kind words and our Thank You Token <strong>flyer</strong>, which helps
+    explain the concept to those unfamiliar with it and contains a link to the
+    <a
+      href="https://app.thank-you-token.nl"
+      class="underline text-tyt_blue"
+      target="_blank">web app</a
+    >.
   </p>
-</div>
-<img
-  src="flyter.jpg"
-  alt="Click for our flyer!"
-  class="bg-slate-100 m-4 sm:w-1/3 image"
-/>
-</section>
+  <a href="/flyer.pdf" target="_blank" class="button float-right">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      class="inline-block mr-2"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      stroke-width="2"
+      width="20"
+      height="20"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V3"
+      />
+    </svg>
+    Download the Flyer
+  </a>
+</Section>
