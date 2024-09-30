@@ -2,6 +2,10 @@
 export default {
   content: ["./src/**/*.{html,js,ts,svelte}"],
   theme: {
+    colors: {
+      black: "#323232",
+      white: "#FFFFFF",
+    },
     extend: {
       colors: {
         tyt_red: "#EB5353",

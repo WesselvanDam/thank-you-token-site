@@ -4,14 +4,15 @@
 
 <Section
   color="tyt_green"
-  imageSrc="img/web-app-mock.jpg"
+  imageSrc="img/app.jpg"
   imageAlt="A mockup of the web app"
   headingText="How does the web app work?"
 >
   <p>
     In the app, you can write down the story behind each received/given token
     along with a picture, which is stored securely in your own Google Drive.
-    This way, you can always look back at the stories behind your tokens.
+    This way, you can always look back at the memories you've made with your
+    friends, family, and others.
   </p>
   <a
     href="https://app.thank-you-token.nl"

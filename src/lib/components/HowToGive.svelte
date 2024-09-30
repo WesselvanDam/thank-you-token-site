@@ -3,7 +3,7 @@
 </script>
 
 <Section
-  imageSrc="img/flyer-mock.jpg"
+  imageSrc="img/flyer.jpg"
   imageAlt="Click for our flyer!"
   headingText="How to give one"
   imageRight
@@ -12,11 +12,8 @@
     There's no need to wrap the token in gift wrapping: just give it along with
     some kind words and our Thank You Token <strong>flyer</strong>, which helps
     explain the concept to those unfamiliar with it and contains a link to the
-    <a
-      href="https://app.thank-you-token.nl"
-      class="underline text-tyt_blue"
-      target="_blank">web app</a
-    >.
+    web app. Encourage the other to pass it on to someone else as a simple,
+    sustainable and spontaneous way to express gratitude.
   </p>
   <a href="/flyer.pdf" target="_blank" class="button float-right">
     <svg
