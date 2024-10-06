@@ -1,39 +1,30 @@
-# create-svelte
+# Thank You Token Site
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Description
+This repository contains the Svelte project for the Thank You Token website: a simple site displaying information about the concept of Thank You Tokens, which are small objects with little intrinsic value that you gift to others as a way to express your gratitude.
 
-## Creating a project
+Read more about the concept of Thank You Tokens [here](https://thank-you-token.nl/).
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Installation
 
+### Prerequisites
+  - Node.js
+  - npm
+
+### Steps
+ 1. Clone the repository:
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/WesselvanDam/thank-you-token-site.git
+cd thank-you-token-site
 ```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+ 2. Install the dependencies:
+```bash
+npm install
+```
+ 3. Start the development server:
 ```bash
 npm run dev
 
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
