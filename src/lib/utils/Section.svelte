@@ -39,6 +39,8 @@
     <img
       src={imageSrc}
       alt={imageAlt}
+      width="1080"
+      height="810"
       class="sm:w-1/3 image {imageRight ? 'sm:order-2' : ''}"
       in:fly={{
         x: isVisible ? (imageRight ? 100 : -100) : 0,
