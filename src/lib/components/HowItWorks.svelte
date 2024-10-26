@@ -19,19 +19,19 @@
       "tyt_red"
     ),
     new InstructionData(
-      "Give/receive a Thank You Token",
-      "Surprise or get surprised with a Thank You Token for/from the other",
+      "Give or receive a token",
+      "Surprise or get surprised with a Thank You Token for or from the other",
       "img/receive.png",
       "tyt_blue"
     ),
     new InstructionData(
       "Keep tokens at home & regift",
-      "Put received tokens on display, ready to be given away again at a later event!",
+      "Put received tokens on display, ready to be given away again at a later time",
       "img/store.png",
       "tyt_green"
     ),
     new InstructionData(
-      "Record the token in our app",
+      "Record the token in the app",
       "Write down the story behind this token in our web app",
       "img/record.png",
       "tyt_yellow"
@@ -52,7 +52,7 @@
           class="w-full rounded-t-2xl min-h-48"
           style="object-fit: cover;"
         />
-        <div class="flex-grow rounded-2xl bg-{data.color} bg-opacity-15 pb-2">
+        <div class="flex-grow rounded-2xl bg-{data.color} bg-opacity-15 pb-2 w-full">
           <h2 class="text-md sm:text-lg md:text-xl px-4 py-4"
             >{data.title}</h2
           >
