@@ -1,9 +1,10 @@
 <script>
   import Section from "$lib/utils/Section.svelte";
+  import { asset } from "$app/paths";
 </script>
 
 <Section
-  imageSrc="img/flyer.jpg"
+  imageSrc={asset("/img/flyer.jpg")}
   imageAlt="Click for our flyer!"
   headingText="How to give one"
   imageRight
@@ -15,7 +16,7 @@
     web app. Encourage the other to pass it on to someone else as a simple,
     sustainable and spontaneous way to express gratitude.
   </p>
-  <a href="/flyer.pdf" target="_blank" class="button float-right">
+  <a href={asset("/flyer.pdf")} target="_blank" class="button float-right">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="inline-block mr-2"

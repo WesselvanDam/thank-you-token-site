@@ -1,10 +1,11 @@
 <script>
   import Section from "$lib/utils/Section.svelte";
+  import { asset } from "$app/paths";
 </script>
 
 <Section
   color="tyt_green"
-  imageSrc="img/app.jpg"
+  imageSrc={asset("/img/app.jpg")}
   imageAlt="A mockup of the web app"
   headingText="How does the web app work?"
 >
